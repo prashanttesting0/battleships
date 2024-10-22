@@ -1,0 +1,9 @@
+on:
+  push:
+    branches:
+      - master
+jobs:
+  hello-world:
+    runs-on: warp-ubuntu-latest-x64-2x
+    steps:
+      - run: echo "hello world"
